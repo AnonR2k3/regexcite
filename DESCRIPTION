@@ -1,11 +1,17 @@
 Package: regexcite
-Title: What the Package Does (One Line, Title Case)
+Title: Splits Strings
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Richard", "He", , "richalvi15@gmail.com", role = c("aut", "cre"))
+Description: Splits strings into character vectors by a separator
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    stringr
+URL: https://github.com/AnonR2k3/regexcite
+BugReports: https://github.com/AnonR2k3/regexcite/issues
